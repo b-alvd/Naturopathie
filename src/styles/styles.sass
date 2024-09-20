@@ -1,0 +1,79 @@
+@import _base
+@import _variables
+
+header
+    width: 100vw
+    height: 80px
+    box-shadow: 0px 15px 50px $blue
+    nav
+        height: 100%
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 0 50px
+        a
+            text-decoration: none
+            font-family: $font-title
+            font-size: 30px
+            color: $blue
+        ul
+            display: flex
+            list-style: none
+            li
+                margin: 0 20px
+                a
+                    text-decoration: none
+                    font-family: $font-base
+                    font-size: 18px
+                    color: $blue
+                    &:hover
+                        text-decoration: underline $orange 2px
+main
+    width: 100vw
+    section#hero
+        display: flex
+        padding: 217px 0
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        background: $blue
+        h1
+            text-align: center
+            font-size: 70px
+            font-weight: 100
+            font-family: $font-title
+            letter-spacing: 1px
+            color: $white
+            &::after
+                display: block
+                content: ""
+                margin-top: 10px
+                width: 55vw
+                height: 3px
+                background: $green
+        div.quote
+            position: relative
+            display: flex
+            margin-top: 100px
+            img
+                width: 25px
+                margin-bottom: 35px
+            p
+                text-align: center
+                width: 53vw
+                font-size: 20px
+                font-family: $font-base
+                color: $white
+        a
+            margin-top: 100px
+            padding: 10px
+            font-size: 20px
+            font-family: $font-base
+            text-decoration: none
+            text-transform: uppercase
+            background-color: $green
+            border-radius: 6px
+            color: $white
+            transition: all ease-in-out 0.3s
+            &:hover
+                background-color: $green-hover

@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100vw;
+  height: 80px;
+  box-shadow: 0px 15px 50px #264653;
+}
+header nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+header nav a {
+  text-decoration: none;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  color: #264653;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  margin: 0 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  color: #264653;
+}
+header nav ul li a:hover {
+  -webkit-text-decoration: underline #e76f51 2px;
+          text-decoration: underline #e76f51 2px;
+}
+
+main {
+  width: 100vw;
+}
+main section#hero {
+  display: flex;
+  padding: 217px 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #264653;
+}
+main section#hero h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 100;
+  font-family: "Cormorant Garamond", serif;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+main section#hero h1::after {
+  display: block;
+  content: "";
+  margin-top: 10px;
+  width: 55vw;
+  height: 3px;
+  background: #729d3d;
+}
+main section#hero div.quote {
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+}
+main section#hero div.quote img {
+  width: 25px;
+  margin-bottom: 35px;
+}
+main section#hero div.quote p {
+  text-align: center;
+  width: 53vw;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  color: #ffffff;
+}
+main section#hero a {
+  margin-top: 100px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #729d3d;
+  border-radius: 6px;
+  color: #ffffff;
+  transition: all ease-in-out 0.3s;
+}
+main section#hero a:hover {
+  background-color: rgba(114, 157, 61, 0.5019607843);
+}/*# sourceMappingURL=styles.css.map */
