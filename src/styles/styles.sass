@@ -2,7 +2,6 @@
 @import _variables
 
 header
-    width: 100vw
     height: 80px
     box-shadow: 0px 15px 50px $blue
     nav
@@ -29,13 +28,12 @@ header
                     &:hover
                         text-decoration: underline $orange 2px
 main
-    width: 100vw
     section#hero
         display: flex
-        padding: 217px 0
         flex-direction: column
         align-items: center
         justify-content: center
+        padding: 142.5px 0
         background: $blue
         h1
             text-align: center
@@ -77,3 +75,59 @@ main
             transition: all ease-in-out 0.3s
             &:hover
                 background-color: $green-hover
+    section#naturo
+        display: flex
+        flex-direction: column
+        align-content: center
+        justify-content: center
+        h2
+            display: flex
+            flex-direction: column
+            align-items: center
+            text-align: center
+            font-size: 55px
+            font-weight: 100
+            font-family: $font-title
+            color: $blue
+            &::after
+                display: block
+                content: ""
+                margin-top: 3px
+                width: 25vw
+                height: 2px
+                background: $orange
+        div.info
+            display: grid
+            padding: 120px 292px
+            padding: 50px 292px 50px 292px
+            grid-template-columns: 1fr 300px
+            grid-template-rows: 300px 100px
+            column-gap: 100px
+            p
+                grid-column: 1/2
+                line-height: 35px
+                font-size: 20px
+                font-family: $font-base
+                color: $blue
+            img
+                grid-column: 2/3
+                grid-row: 1/3
+                width: 300px
+                height: 400px
+                background-color: red
+        div.link_container
+            display: flex
+            justify-content: center
+            align-items: center
+            a
+                padding: 15px
+                margin-bottom: 80px
+                text-decoration: none
+                font-size: 20px
+                font-family: $font-base
+                color: $white
+                background-color: $blue
+                border-radius: 6px
+                transition: all ease-in-out 0.3s
+                &:hover
+                    background-color: $blue-hover
