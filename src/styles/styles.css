@@ -199,7 +199,7 @@ main section#naturo_techs {
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  padding: 100px 150px;
+  padding: 50px 150px;
 }
 main section#naturo_techs h2 {
   display: flex;
@@ -219,11 +219,55 @@ main section#naturo_techs h2::after {
   height: 2px;
   background: #e76f51;
 }
+main section#naturo_techs div#carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main section#naturo_techs div#carousel img#main {
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 10px 0;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+main section#naturo_techs div#carousel img#main:active {
+  z-index: 2;
+  scale: 2.3;
+}
+main section#naturo_techs div#carousel div#thumbnails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section#naturo_techs div#carousel div#thumbnails button {
+  margin: 0 20px;
+}
+main section#naturo_techs div#carousel div#thumbnails section#imagesContainer img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 2px;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+main section#naturo_techs div#carousel div#thumbnails section#imagesContainer img:not(.selected) {
+  filter: grayscale(100%);
+  transition: scale ease 1s;
+}
+main section#naturo_techs .selected {
+  border: 2px solid #e76f51;
+  scale: 0.9;
+  transition: scale ease 1s;
+}
 main section#naturo_fundamentals {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 80px;
 }
 main section#naturo_fundamentals h2 {
   display: flex;
@@ -244,7 +288,7 @@ main section#naturo_fundamentals h2::after {
   background: #729d3d;
 }
 main section#naturo_fundamentals div.fundamentals {
-  padding-top: 50px;
+  padding-top: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -302,4 +346,39 @@ main section#naturo_fundamentals div.fundamentals div.text4 {
 main section#naturo_fundamentals div.fundamentals img.image4 {
   grid-column: 2/3;
   grid-row: 4/4;
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  color: #264653;
+}
+footer a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Cormorant Garamond", serif;
+  color: #264653;
+}
+footer div.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+}
+footer div.links a {
+  padding: 20px;
+  background-color: #264653;
+}
+footer ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  color: #264653;
+}
+footer ul li a:hover {
+  -webkit-text-decoration: underline #e76f51 2px;
+          text-decoration: underline #e76f51 2px;
 }/*# sourceMappingURL=styles.css.map */

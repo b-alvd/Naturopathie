@@ -164,7 +164,7 @@ main
         flex-direction: column
         align-content: center
         justify-content: center
-        padding: 100px 150px
+        padding: 50px 150px
         h2
             display: flex
             flex-direction: column
@@ -181,12 +181,46 @@ main
                 width: 23vw
                 height: 2px
                 background: $orange
+        div#carousel 
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            img#main
+                object-fit: cover
+                margin: 10px 0
+                width: 300px
+                height: 300px
+                border-radius: 10px
+                &:active
+                    z-index: 2
+                    scale: 2.3
+            div#thumbnails
+                display: flex
+                align-items: center
+                justify-content: center
+                button
+                    margin: 0 20px
+                section#imagesContainer
+                    img
+                        object-fit: cover
+                        margin: 0 2px
+                        width: 100px
+                        height: 100px
+                        border-radius: 5px
+                        &:not(.selected)
+                            filter: grayscale(100%)
+                            transition: scale ease 1s
+        .selected
+            border: 2px solid $orange
+            scale: 0.9
+            transition: scale ease 1s
     section#naturo_fundamentals
         display: flex
         flex-direction: column
         align-items: center
         justify-content: center
-        // padding: 0 200px
+        padding-top: 80px
         h2
             display: flex
             flex-direction: column
@@ -204,7 +238,7 @@ main
                 height: 2px
                 background: $green
         div.fundamentals
-            padding-top: 50px
+            padding-top: 30px
             display: grid
             grid-template-columns: 1fr 1fr
             grid-template-rows: 1fr 1fr 1fr 1fr
@@ -251,3 +285,32 @@ main
             img.image4
                 grid-column: 2 / 3
                 grid-row: 4 / 4
+footer
+    height: 100px
+    display: flex
+    align-items: center
+    justify-content: space-around
+    padding: 20px
+    color: $blue
+    a
+        text-decoration: none
+        font-size: 25px
+        font-family: $font-title
+        color: $blue
+    div.links
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-template-rows: 1fr
+        gap: 10px
+        a
+            padding: 20px
+            background-color: $blue
+    ul
+        li
+            a
+                text-decoration: none
+                font-size: 20px
+                font-family: $font-base
+                color: $blue
+                &:hover
+                    text-decoration: underline $orange 2px
