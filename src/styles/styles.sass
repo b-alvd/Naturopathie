@@ -291,7 +291,7 @@ main
         display: flex
         flex-direction: column
         padding-top: 40px
-        h2
+        h1
             display: flex
             flex-direction: column
             align-items: center
@@ -404,6 +404,108 @@ main
             img.image2
                 grid-column: 2 / 3
                 grid-row: 2 / 3
+    section#contact
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        padding-top: 40px
+        h1
+            display: flex
+            flex-direction: column
+            align-items: center
+            text-align: center
+            font-size: 50px
+            font-weight: 100
+            font-family: $font-title
+            color: $blue
+            &::after
+                display: block
+                content: ""
+                margin-top: 3px
+                width: 9vw
+                height: 2px
+                background: $orange
+        div.contact_container
+            display: flex
+            align-items: center
+            justify-content: center
+            div.contact_details
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: center
+                padding: 0 100px
+                color: $blue
+                div.phone_email
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    padding: 20px
+                    div
+                        padding: 0 50px
+                        line-height: 10px
+                        p
+                            font-size: 20px
+                            font-family: $font-base
+                iframe
+                    width: 500px
+                    height: 300px
+            form
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: center
+                padding: 91px 150px
+                div.infos
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    div
+                        display: flex
+                        flex-direction: column
+                        padding: 0 20px
+                        margin-bottom: 20px
+                        label
+                            font-size: 20px
+                            font-family: $font-base
+                            color: $blue
+                        input
+                            width: 200px
+                            height: 30px
+                            font-size: 15px
+                            font-family: $font-base
+                            color: $blue
+                div.message
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    justify-content: center
+                    label
+                        font-size: 20px
+                        font-family: $font-base
+                        color: $blue
+                    textarea
+                        width: 700px
+                        height: 100px
+                        font-size: 15px
+                        font-family: $font-base
+                        color: $blue
+                div.submit
+                    padding: 30px
+                    input[type="submit"]
+                        width: 200px
+                        height: 50px
+                        font-size: 20px
+                        font-family: $font-base
+                        color: $white
+                        background-color: $blue
+                        border: none
+                        border-radius: 6px
+                        transition: all ease-in-out 0.3s
+                        &:hover
+                            cursor: pointer
+                            background-color: $blue-hover
 footer
     height: 100px
     box-shadow: 0px 15px 100px $blue
