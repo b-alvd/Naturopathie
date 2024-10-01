@@ -2,43 +2,43 @@ document.addEventListener("DOMContentLoaded", function() {
     const IMAGES = [
         {
             url: "./src/assets/img.jpg",
-            alt: "Singe Nasique"
+            alt: "..."
+        },
+        {
+            url: "./src/assets/guillemets_blue.svg",
+            alt: "..."
         },
         {
             url: "./src/assets/img.jpg",
-            alt: "Colibri"
+            alt: "..."
         },
         {
             url: "./src/assets/img.jpg",
-            alt: "Chouette"
+            alt: "..."
         },
         {
             url: "./src/assets/img.jpg",
-            alt: "Bébé Iguane"
+            alt: "..."
         },
         {
             url: "./src/assets/img.jpg",
-            alt: "Singe Catharriny"
+            alt: "..."
         },
         {
             url: "./src/assets/img.jpg",
-            alt: "Singe Nasique"
+            alt: "..."
         },
         {
             url: "./src/assets/img.jpg",
-            alt: "Colibri"
+            alt: "..."
         },
         {
             url: "./src/assets/img.jpg",
-            alt: "Chouette"
+            alt: "..."
         },
         {
             url: "./src/assets/img.jpg",
-            alt: "Bébé Iguane"
-        },
-        {
-            url: "./src/assets/img.jpg",
-            alt: "Singe Catharriny"
+            alt: "..."
         }
     ];
     
