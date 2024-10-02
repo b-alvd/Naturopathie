@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Article 1",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula malesuada justo sit amet cursus.",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula malesuada justo sit amet cursus. Nullam tincidunt cursus metus, sed eleifend nisl egestas vitae. Integer et mi in nulla vestibulum malesuada. Sed et lacus ut leo dictum malesuada. Sed sit amet nulla augue tristique tincidunt. Curabitur dapibus magna non est aliquet, et fermentum felis elementum. Nulla facilisi. Sed tincidunt, erat in malesuada aliquam, est erat aliquam erat, a aliquam augue lorem quis nisl. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Sed tincidunt, erat in malesuada aliquam, est erat aliquam erat, a aliquam augue lorem quis nisl. Ut sed nibh in lectus convallis auctor. Sed a nulla auctor, vestibulum magna sed, convallis ex.",
         "imgSrc": "src/assets/img.jpg",
         "date": "xx/xx/xxxx",
         "readTime": "5 min"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "Article 2",
-        "content": "Praesent sit amet nulla augue tristique tincidunt. Curabitur dapibus magna non est aliquet, et fermentum felis elementum.",
+        "content": "Praesent sit amet nulla augue tristique tincidunt. Curabitur dapibus magna non est aliquet, et fermentum felis elementum. Nulla facilisi. Sed tincidunt, erat in malesuada aliquam, est erat aliquam erat, a aliquam augue lorem quis nisl. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Sed tincidunt, erat in malesuada aliquam, est erat aliquam erat, a aliquam augue lorem quis nisl. Ut sed nibh in lectus convallis auctor. Sed a nulla auctor, vestibulum magna sed, convallis ex. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Ut sed nibh in lectus convallis auctor. Sed a nulla auctor, vestibulum magna sed, convallis ex.",
         "imgSrc": "src/assets/img.jpg",
         "date": "xx/xx/xxxx",
         "readTime": "4 min"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "title": "Article 3",
-        "content": "Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+        "content": "Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Ut sed nibh in lectus convallis auctor. Sed a nulla auctor, vestibulum magna sed, convallis ex. Aliquam nec magna sit amet sapien luctus ultrices. Mauris sit amet nisi ac nulla sollicitudin sodales. Nullam tincidunt cursus metus, sed eleifend nisl egestas vitae. Integer et mi in nulla vestibulum malesuada. Sed et lacus ut leo dictum malesuada.",
         "imgSrc": "src/assets/img.jpg",
         "date": "xx/xx/xxxx",
         "readTime": "6 min"
@@ -26,7 +26,39 @@
     {
         "id": 4,
         "title": "Article 4",
-        "content": "Aliquam nec magna sit amet sapien luctus ultrices. Mauris sit amet nisi ac nulla sollicitudin sodales.",
+        "content": "Aliquam nec magna sit amet sapien luctus ultrices. Mauris sit amet nisi ac nulla sollicitudin sodales. Nullam tincidunt cursus metus, sed eleifend nisl egestas vitae. Integer et mi in nulla vestibulum malesuada. Sed et lacus ut leo dictum malesuada. Sed sit amet nulla augue tristique tincidunt. Curabitur dapibus magna non est aliquet, et fermentum felis elementum. Nulla facilisi. Sed tincidunt, erat in malesuada aliquam, est erat aliquam erat, a aliquam augue lorem quis nisl. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Sed tincidunt, erat in malesuada aliquam, est erat aliquam erat, a aliquam augue lorem quis nisl. Ut sed nibh in lectus convallis auctor. Sed a nulla auctor, vestibulum magna sed, convallis ex.",
+        "imgSrc": "src/assets/img.jpg",
+        "date": "xx/xx/xxxx",
+        "readTime": "7 min"
+    },
+    {
+        "id": 5,
+        "title": "Article 5",
+        "content": "Integer et mi in nulla vestibulum malesuada. Sed et lacus ut leo dictum malesuada. Nulla facilisi. Sed tincidunt, erat in malesuada aliquam, est erat aliquam erat, a aliquam augue lorem quis nisl. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Sed tincidunt, erat in malesuada aliquam, est erat aliquam erat, a aliquam augue lorem quis nisl. Ut sed nibh in lectus convallis auctor. Sed a nulla auctor, vestibulum magna sed, convallis ex. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Ut sed nibh in lectus convallis auctor. Sed a nulla auctor, vestibulum magna sed, convallis ex.",
+        "imgSrc": "src/assets/img.jpg",
+        "date": "xx/xx/xxxx",
+        "readTime": "5 min"
+    },
+    {
+        "id": 6,
+        "title": "Article 6",
+        "content": "In hac habitasse platea dictumst. In hac habitasse platea dictumst. Sed tincidunt, erat in malesuada aliquam, est erat aliquam erat, a aliquam augue lorem quis nisl. Ut sed nibh in lectus convallis auctor. Sed a nulla auctor, vestibulum magna sed, convallis ex. Aliquam nec magna sit amet sapien luctus ultrices. Mauris sit amet nisi ac nulla sollicitudin sodales. Nullam tincidunt cursus metus, sed eleifend nisl egestas vitae. Integer et mi in nulla vestibulum malesuada. Sed et lacus ut leo dictum malesuada.",
+        "imgSrc": "src/assets/img.jpg",
+        "date": "xx/xx/xxxx",
+        "readTime": "6 min"
+    },
+    {
+        "id": 7,
+        "title": "Article 7",
+        "content": "Sed a nulla auctor, vestibulum magna sed, convallis ex. Nullam tincidunt cursus metus, sed eleifend nisl egestas vitae. Nulla facilisi. Ut sed nibh in lectus convallis auctor. Sed a nulla auctor, vestibulum magna sed, convallis ex. Sed sit amet nulla augue tristique tincidunt. Curabitur dapibus magna non est aliquet, et fermentum felis elementum. Nulla facilisi. Sed tincidunt, erat in malesuada aliquam, est erat aliquam erat, a aliquam augue lorem quis nisl. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Sed tincidunt, erat in malesuada aliquam, est erat aliquam erat, a aliquam augue lorem quis nisl. Ut sed nibh in lectus convallis auctor. Sed a nulla auctor, vestibulum magna sed, convallis ex.",
+        "imgSrc": "src/assets/img.jpg",
+        "date": "xx/xx/xxxx",
+        "readTime": "4 min"
+    },
+    {
+        "id": 8,
+        "title": "Article 8",
+        "content": "Nam scelerisque, lectus ut convallis elementum, erat enim auctor magna, nec lacinia velit tellus in felis. Nulla facilisi. Ut sed nibh in lectus convallis auctor. Sed a nulla auctor, vestibulum magna sed, convallis ex. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Ut sed nibh in lectus convallis auctor. Sed a nulla auctor, vestibulum magna sed, convallis ex. Sed sit amet nulla augue tristique tincidunt. Curabitur dapibus magna non est aliquet, et fermentum felis elementum. Nulla facilisi. Sed tincidunt, erat in malesuada aliquam, est erat aliquam erat, a aliquam augue lorem quis nisl. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Sed tincidunt, erat in malesuada aliquam, est erat aliquam erat, a aliquam augue lorem quis nisl. Ut sed nibh in lectus convallis auctor. Sed a nulla auctor, vestibulum magna sed, convallis ex.",
         "imgSrc": "src/assets/img.jpg",
         "date": "xx/xx/xxxx",
         "readTime": "7 min"

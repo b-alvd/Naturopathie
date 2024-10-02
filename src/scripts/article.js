@@ -8,12 +8,13 @@ document.addEventListener("DOMContentLoaded", function() {
         const ARTICLE = articles.find(article => article.id == ARTICLE_ID);
 
         if (ARTICLE) {
-            document.querySelector("#article-title").textContent = ARTICLE.title;
-            document.querySelector("#article-image").src = ARTICLE.imgSrc;
-            document.querySelector("#article-content").textContent = ARTICLE.content;
-            document.querySelector("#article-date").textContent = ARTICLE.date;
+            document.querySelector("#article_date").textContent = ARTICLE.date;
+            document.querySelector("#article_readtime").textContent = ARTICLE.readTime;
+            document.querySelector("#article_title").textContent = ARTICLE.title;
+            document.querySelector("#article_image").src = ARTICLE.imgSrc;
+            document.querySelector("#article_content").textContent = ARTICLE.content;
         } else {
-            document.getElementById("article_detail").innerHTML = "<p>Article introuvable</p>";
+            document.getElementById("article_details").innerHTML = "<p>Article introuvable</p>";
         }
     })
     .catch(error => console.error("Erreur lors du chargement de l'article: ", error));

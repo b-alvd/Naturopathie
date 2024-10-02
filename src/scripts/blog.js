@@ -11,9 +11,12 @@ document.addEventListener("DOMContentLoaded", function() {
             ARTICLE_ELEMENT.innerHTML = `
                 <img src="${article.imgSrc}" alt="${article.title}">
                 <div class="content">
+                    <div class="date_readtime">
+                        <p>${article.date}</p>
+                        <p>${article.readTime}</p>
+                    </div>
                     <h3>${article.title}</h3>
-                    <p>${article.content}</p>
-                    <p class="date">${article.date} - ${article.readTime}</p>
+                    <p>${article.content.slice(0, 100)}...</p>
                     <a href="article.html?id=${article.id}">Voir plus</a>
                 </div>
             `;
